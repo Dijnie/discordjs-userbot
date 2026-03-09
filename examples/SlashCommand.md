@@ -41,7 +41,7 @@ await channel.sendSlash('450323683840491530', 'animal chat', 'bye')
 ### Code test
 
 ```js
-const { MessageAttachment } = require('discord-selfbot.js')
+const { MessageAttachment } = require('discord.js-selfbot')
 const fs = require('fs')
 const a = new MessageAttachment(fs.readFileSync('./wallpaper.jpg') , 'test.jpg') 
 await message.channel.sendSlash('718642000898818048', 'sauce', a)
@@ -89,7 +89,7 @@ await message.channel.sendSlash('718642000898818048', 'sauce', a)
 
 ### Receive messages after bot has replied `{botname} is thinking...`
 
-> [dijnie/discord-selfbot.js#1055 (comment)](https://github.com/dijnie/discord-selfbot.js/issues/1055#issuecomment-1949653100)
+> [dijnie/discord.js-selfbot#1055 (comment)](https://github.com/dijnie/discord.js-selfbot/issues/1055#issuecomment-1949653100)
 
 ![image](https://github.com/user-attachments/assets/0a1d253a-7751-4f63-a750-58b50d055928)
 

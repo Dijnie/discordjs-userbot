@@ -1,4 +1,4 @@
-const { Client, RichPresence, CustomStatus, SpotifyRPC } = require('discord-selfbot.js');
+const { Client, RichPresence, CustomStatus, SpotifyRPC } = require('discord.js-selfbot');
 const client = new Client();
 
 client.on('ready', async () => {

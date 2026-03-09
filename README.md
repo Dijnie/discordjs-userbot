@@ -3,7 +3,7 @@
 > 
 > **This project is no longer actively maintained and this repository has been archived.**
 >
-> You can read the full announcement [here](https://github.com/dijnie/discord-selfbot.js/discussions/1743)
+> You can read the full announcement [here](https://github.com/dijnie/discord.js-selfbot/discussions/1743)
 
 <div align="center">
   <br />
@@ -18,16 +18,16 @@
 
 ## About
 
-<strong>Welcome to `discord-selfbot.js@v3.7`, based on `discord.js@13.17` and backport `discord.js@14.21.0`</strong>
+<strong>Welcome to `discord.js-selfbot@v3.7`, based on `discord.js@13.17` and backport `discord.js@14.21.0`</strong>
 
-- discord-selfbot.js is a [Node.js](https://nodejs.org) module that allows user accounts to interact with the Discord API v9.
+- discord.js-selfbot is a [Node.js](https://nodejs.org) module that allows user accounts to interact with the Discord API v9.
 
 
 <div align="center">
   <p>
-    <a href="https://www.npmjs.com/package/discord-selfbot.js"><img src="https://img.shields.io/npm/v/discord-selfbot.js.svg" alt="npm version" /></a>
-    <a href="https://www.npmjs.com/package/discord-selfbot.js"><img src="https://img.shields.io/npm/dt/discord-selfbot.js.svg" alt="npm downloads" /></a>
-    <a href="https://github.com/dijnie/discord-selfbot.js/actions"><img src="https://github.com/dijnie/discord-selfbot.js/actions/workflows/lint.yml/badge.svg" alt="Tests status" /></a>
+    <a href="https://www.npmjs.com/package/discord.js-selfbot"><img src="https://img.shields.io/npm/v/discord.js-selfbot.svg" alt="npm version" /></a>
+    <a href="https://www.npmjs.com/package/discord.js-selfbot"><img src="https://img.shields.io/npm/dt/discord.js-selfbot.svg" alt="npm downloads" /></a>
+    <a href="https://github.com/dijnie/discord.js-selfbot/actions"><img src="https://github.com/dijnie/discord.js-selfbot/actions/workflows/lint.yml/badge.svg" alt="Tests status" /></a>
   </p>
 </div>
 
@@ -39,7 +39,7 @@
 
 ### <strong>[Document Website](https://discordjs-self-v13.netlify.app/)</strong>
 
-### <strong>[Example Code](https://github.com/dijnie/discord-selfbot.js/tree/main/examples)</strong>
+### <strong>[Example Code](https://github.com/dijnie/discord.js-selfbot/tree/main/examples)</strong>
 
 ## Features (User)
 - [x] Message
@@ -57,13 +57,13 @@
 > **Node.js 20.18.0 or newer is required**
 
 ```sh-session
-npm install discord-selfbot.js@latest
+npm install discord.js-selfbot@latest
 ```
 
 ## Example
 
 ```js
-const { Client } = require('discord-selfbot.js');
+const { Client } = require('discord.js-selfbot');
 const client = new Client();
 
 client.on('ready', async () => {
@@ -109,7 +109,7 @@ console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
 - See [the contribution guide](https://github.com/discordjs/discord.js/blob/main/.github/CONTRIBUTING.md) if you'd like to submit a PR.
 
 ## Need help?
-Github Discussion: [Here](https://github.com/dijnie/discord-selfbot.js/discussions)
+Github Discussion: [Here](https://github.com/dijnie/discord.js-selfbot/discussions)
 
 ## Credits
 - [Discord.js](https://github.com/discordjs/discord.js)
@@ -121,4 +121,4 @@ Github Discussion: [Here](https://github.com/dijnie/discord-selfbot.js/discussio
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=dijnie/discord-selfbot.js&type=Date)](https://star-history.com/#dijnie/discord-selfbot.js&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=dijnie/discord.js-selfbot&type=Date)](https://star-history.com/#dijnie/discord.js-selfbot&Date)

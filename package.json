@@ -1,5 +1,5 @@
 {
-  "name": "discord-selfbot.js",
+  "name": "discord.js-selfbot",
   "version": "14.25.1",
   "description": "An unofficial discord.js fork for creating selfbots",
   "main": "./src/index.js",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dijnie/discord-selfbot.js.git"
+    "url": "git+https://github.com/dijnie/discord.js-selfbot.git"
   },
   "keywords": [
     "discord.js",
@@ -45,9 +45,9 @@
   "author": "dijnie",
   "license": "GNU General Public License v3.0",
   "bugs": {
-    "url": "https://github.com/dijnie/discord-selfbot.js/issues"
+    "url": "https://github.com/dijnie/discord.js-selfbot/issues"
   },
-  "homepage": "https://github.com/dijnie/discord-selfbot.js#readme",
+  "homepage": "https://github.com/dijnie/discord.js-selfbot#readme",
   "dependencies": {
     "@discordjs/builders": "^1.6.3",
     "@discordjs/collection": "^2.1.1",

@@ -177,7 +177,7 @@ class ThreadManager extends CachedManager {
     }, new Collection());
 
     // Patch firstMessage
-    // According to https://github.com/dijnie/discord-selfbot.js/issues/1502, rawThreads.first_messages could be null.
+    // According to https://github.com/dijnie/discord.js-selfbot/issues/1502, rawThreads.first_messages could be null.
     for (const rawMessage of rawThreads?.first_messages || []) {
       client.channels.cache.get(rawMessage.id)?.messages._add(rawMessage);
     }
