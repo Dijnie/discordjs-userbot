@@ -292,7 +292,7 @@ class GroupDMChannel extends Channel {
     let code = invite?.code;
     if (!code && URL.canParse(invite)) code = new URL(invite).pathname.slice(1);
     else code = invite;
-    await this.client.api.channels(this.id).invites[invite].delete();
+    await this.client.api.channels(this.id).invites[code].delete();
     return this;
   }
 
